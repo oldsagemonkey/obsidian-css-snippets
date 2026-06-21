@@ -1,0 +1,29 @@
+/*--------------------------------------------------------*/
+/* Styles of traditional HTML elements in Obsidian notes. */
+/*--------------------------------------------------------*/
+
+/* make big and small tags in all caps */
+
+big, small {
+	font-variant: small-caps;
+	font-weight: bold;
+}
+
+/* inline quote - 'q' adds quote marks automatically, 'cite' does not. */
+
+q, cite {
+	font-style: italic;
+}
+
+/* Create a static progress bar: <meter min="0" max="100" value="60"></meter> */
+
+meter {
+	height: 25px;
+}
+
+/* Create a collapsable section */
+
+details {
+	border: 1px solid #778899;
+	padding: 5px;
+}

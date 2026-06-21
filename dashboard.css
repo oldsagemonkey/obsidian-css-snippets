@@ -1,0 +1,76 @@
+/*---------------------------------------------------------------------*/
+/* Dashboard - Customizations for dashboard notes (cssclasses = .dash) */
+/*---------------------------------------------------------------------*/
+
+/* Dashboard Tables - Tables should be used for trackers only. All else are callouts. */
+
+.dash th {
+	font-size: 1em !important;
+}
+
+/* Callout Styles */
+
+.dash .callout {
+	--callout-title-size: 1em;
+	--callout-border-width: 2px !important;
+}
+
+.dash h2 {
+	font-variant: small-caps !important;
+	font-size: 1.4em !important;
+	letter-spacing: .3em;
+	text-align: center !important;
+	color: #ccbbaa !important;
+	border-bottom: 0.5px solid #f0a0a0 !important;
+}
+
+/* Query block results */
+.markdown-rendered.dash .internal-query .internal-query-header,
+.markdown-rendered.dash .internal-query .search-result-header {
+  display: none !important;
+}
+
+/* Hide Query Count */
+.markdown-rendered.dash .internal-query .internal-query-header,
+.markdown-rendered.dash .internal-query .tree-item-flair {
+  display: none !important;
+}
+
+.markdown-rendered.dash .internal-query .search-result-container,
+.markdown-rendered.dash .internal-query .search-result,
+.markdown-rendered.dash .internal-query .search-result-file-title,
+.markdown-rendered.dash .internal-query .search-result-file-match,
+.markdown-rendered.dash .internal-query .tree-item-self {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+.markdown-rendered.dash .internal-query .tree-item-flair,
+.markdown-rendered.dash .internal-query .search-result-count,
+.markdown-rendered.dash .internal-query .search-result-file-match-count,
+.markdown-rendered.dash .internal-query .search-result-file-matches-count {
+  color: #ccbbaa !important;
+  background: transparent !important;
+}
+
+/* Grid styles */
+
+.dash .dashboard-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    align-items: start;
+  }
+
+  .dash .dashboard-grid > div {
+    border: 1px solid var(--background-modifier-border);
+    border-radius: 8px;
+    padding: 12px;
+    background: var(--background-secondary);
+  }
+
+  @media (max-width: 800px) {
+    .dash .dashboard-grid {
+      grid-template-columns: 1fr;
+    }
+  }

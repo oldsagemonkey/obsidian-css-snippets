@@ -1,0 +1,12 @@
+/*-----------------------------------------------------------------*/
+/* Colored Tabs - Easy to identify which is active. Dark-mode only */
+/*-----------------------------------------------------------------*/
+
+.theme-dark {  
+  --tab-text-color: #ccbbaa;
+  --tab-text-color-active: #aaccbb;
+  --tab-text-color-focused: #ccbbaa;
+  --tab-text-color-focused-active: #aaccbb;
+  --tab-text-color-focused-highlighted: #aaccbb;
+  --tab-text-color-focused-active-current: #aaccbb;
+}

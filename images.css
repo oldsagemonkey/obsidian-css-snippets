@@ -1,0 +1,29 @@
+/*---------------------------------------------------------------------*/
+/* Images - special positioning and customizations (left, right, etc.) */
+/*---------------------------------------------------------------------*/
+
+img.padrt {
+	padding-right: 20px;
+}
+
+img[alt*="center"], .markdown-source-view .cm-content .image-embed[alt*="center"] {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img[alt*="right"], .markdown-source-view .cm-content .image-embed[alt*="right"] {
+    float:right;
+    clear:right;
+    margin-left: 1rem;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+img[alt*="left"], .markdown-source-view .cm-content .image-embed[alt*="left"] {
+    float:left;
+    clear:left;
+    margin-right: 1rem;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}

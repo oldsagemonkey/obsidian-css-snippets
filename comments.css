@@ -1,0 +1,8 @@
+/*--------------------------------------------*/
+/* Comments - Fix so they are easier to read. */
+/*--------------------------------------------*/
+
+.cm-comment {
+	font-style: italic;
+	color: #667788;
+}

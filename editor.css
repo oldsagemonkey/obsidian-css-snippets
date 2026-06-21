@@ -1,0 +1,14 @@
+/*--------*/
+/* Editor */
+/*--------*/
+
+/* Editor background */
+
+.markdown-preview-view, .markdown-source-view {
+	background: #222222;
+}
+
+ /* Styling for spelling errors */
+::spelling-error {
+	text-decoration: underline double #ffaabb;
+}

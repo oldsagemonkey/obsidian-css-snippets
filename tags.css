@@ -1,0 +1,9 @@
+/*----------------------------------------------------*/
+/* Universal tag colors for inline and metadata tags. */
+/*----------------------------------------------------*/
+
+.tag, .cm-tag, .cm-hashtag, .metadata-property[data-property-key="tags"] .multi-select-pill {
+	color: white !important;
+	background-color: #445566 !important;
+	font-variant: small-caps !important;
+}

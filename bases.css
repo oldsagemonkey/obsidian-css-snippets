@@ -1,0 +1,70 @@
+/*---------------------------------------------------------------------*/
+/* Bases - customizations for bases views and embedded bases in notes. */
+/*---------------------------------------------------------------------*/
+
+/* hide the bases toolbar when embedded by either adding 'bases-no-toolbar to the cssclasses YAML, or adding '|no–toolbar' to the embedding link like this: ![[Obsidian Publish.base#ToDo|no-toolbar]] */
+
+:is(
+	.bases-no-toolbar,
+	.bases-embed[alt~="no-toolbar"]
+)   .bases-header {
+	display: none;
+}
+
+/* Hide all bases toolbar elements but the New button */
+
+:is(
+  .bases-new-only,
+  .bases-embed[alt~="new-only"]
+)
+:is(
+  .bases-toolbar-views-menu,
+  .bases-toolbar-sort-menu,
+  .bases-toolbar-filter-menu,
+  .bases-toolbar-properties-menu
+) {
+  display: none;
+}
+
+/* Bases table styling */
+
+.bases-thead, .bases-table-header {
+	font-size: 1.1em;
+	font-variant: small-caps;
+	letter-spacing: 1.3px;
+	background-color: #304050d0;
+}
+
+.bases-tbody {
+	font-size: 1.2em;
+	background-color: #33445540;
+}
+
+.bases-tr {
+	background-color: transparent;
+}
+
+.bases-td {
+	border: 0.1px solid #556677;
+}
+
+.bases-table-container {
+	background-color: transparent;
+}
+
+body {
+--bases-table-header-color: white;
+--bases-table-header-weight: 600;
+--bases-table-header-icon-display: none;
+}
+
+/* Colorize Summaries */
+.summary-function-name, .summary-function-value {
+	font-weight: bold !important;
+	color: #ccbbaa !important;
+}
+
+.summary-function-value::after {
+	content: " %"
+}
+

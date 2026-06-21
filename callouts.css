@@ -1,0 +1,98 @@
+/*-------------------------------------------------------------*/
+/* Callout styling and special attributes for customizing view */
+/*-------------------------------------------------------------*/
+
+.callout[data-callout="blank"] {
+    --callout-color: transparent;
+	padding-top: 0px;
+	padding-bottom: 10px;
+
+}
+
+/* Hide title and icon */
+
+.callout:is([data-callout-metadata^="no-head"]) .callout-title {
+  display: none;
+}
+
+.callout-title {
+		font-variant: small-caps;
+}
+
+/* Proper asides */
+.callout[data-callout="aside"] {
+	--callout-color: 150, 200, 250;
+    float: right;
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 10px;
+	border: 1px solid #667788;
+	width: 30%;
+}
+
+/* Custom Callouts - Sanskrit */
+.callout[data-callout="devanagari"] {
+    --callout-color: #8899aa;
+	--callout-icon: flame;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+.callout[data-callout="transliteration"] {
+    --callout-color: #aa9988;
+	--callout-icon: case-sensitive;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+.callout[data-callout="translation"] {
+    --callout-color: #88aa99;
+	--callout-icon: volume-2;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+.callout[data-callout="thoughts"] {
+    --callout-color: #9988aa;
+	--callout-icon: pencil-line;
+	padding-top: 10px;
+	padding-bottom: 0px;
+}
+
+/* Standard callout colors */
+
+.callout[data-callout="note"], .callout[data-callout="abstract"], .callout[data-callout="summary"], .callout[data-callout="info"], .callout[data-callout="todo"]  {
+    --callout-color: #aabbcc;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.callout[data-callout="tip"], .callout[data-callout="hint"], .callout[data-callout="important"], .callout[data-callout="success"], .callout[data-callout="check"], .callout[data-callout="done"] {
+    --callout-color: #aaccbb;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.callout[data-callout="question"], .callout[data-callout="help"], .callout[data-callout="faq"], .callout[data-callout="warning"], .callout[data-callout="caution"], .callout[data-callout="attention"] {
+    --callout-color: #ccbbaa;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.callout[data-callout="failure"], .callout[data-callout="fail"], .callout[data-callout="missing"], .callout[data-callout="danger"], .callout[data-callout="error"], .callout[data-callout="bug"] {
+    --callout-color: #ddaaaa;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}
+
+.callout[data-callout="example"], .callout[data-callout="quote"], .callout[data-callout="cite"] {
+    --callout-color: #ccaabb;
+	padding-top: 10px;
+	padding-bottom: 10px;
+
+}

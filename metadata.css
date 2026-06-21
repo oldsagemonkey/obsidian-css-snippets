@@ -1,0 +1,12 @@
+/*--------------------------------------------------------------*/
+/* Metadata - styling, which applies to both inline and sidebar */
+/*--------------------------------------------------------------*/
+
+body {
+	--metadata-background: #222222;
+	--metadata-label-font-weight: bold;
+	--metadata-border-color: #778888;
+	--metadata-border-width: 1px;
+	--metadata-padding: 10px;
+	--metadata-display-reading: none;
+}

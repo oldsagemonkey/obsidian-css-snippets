@@ -1,0 +1,7 @@
+/*---------------------------------------------------------------*/
+/* Suppress embedded file title and leave only the file contents */
+/*---------------------------------------------------------------*/
+
+.markdown-embed-title {
+    display: none;
+}

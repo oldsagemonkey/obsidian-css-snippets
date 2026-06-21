@@ -1,0 +1,28 @@
+/*------------------------------*/
+/* Outline View - Right Sidebar */
+/*------------------------------*/
+
+/* Recursive font colors for headers in the outline pane list */
+.workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-self {
+    color: #ccbbaa; /* Level 1 color */
+  }
+  
+.workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-children > .tree-item > .tree-item-self {
+    color: #aabbcc; /* Level 2 color */
+  }
+
+.workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-children > .tree-item > .tree-item-children  > .tree-item > .tree-item-self {
+    color: #bbaacc; /* Level 3 color */
+  }
+  
+.workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-children > .tree-item > .tree-item-children  > .tree-item  > .tree-item-children  > .tree-item > .tree-item-self {
+    color: #ccaabb; /* Level 4 color */
+  }
+  
+.workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-children > .tree-item > .tree-item-children  > .tree-item  > .tree-item-children  > .tree-item > .tree-item-children  > .tree-item >  .tree-item-self {
+    color: #aaccbb; /* Level 5 color */
+  }
+  
+.workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-children > .tree-item > .tree-item-children  > .tree-item  > .tree-item-children  > .tree-item > .tree-item-children  > .tree-item > .tree-item-children  > .tree-item >  .tree-item-self {
+    color: #ccaabb; /* Level 6 color */
+  }

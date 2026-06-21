@@ -1,0 +1,31 @@
+/*-----------------------------*/
+/* Styling for markdown tables */
+/*-----------------------------*/
+
+table thead tr th {
+	text-align: left;
+}
+
+table {
+	border-collapse: collapse !important;
+	font-size: 1em !important;
+	overflow: hidden !important;
+	width: auto !important;
+	min-width: 100% !important;
+}
+thead {
+	background-color: #44556650 !important;
+	font-variant: small-caps !important;
+}
+th {
+	letter-spacing: 1.3px !important;
+}
+
+td {
+	background-color: #44556630 !important;
+}
+
+td, th {
+	border: 1px solid #556677 !important;
+	padding: 5px !important;
+}

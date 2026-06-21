@@ -1,0 +1,54 @@
+/*----------------------------------------*/
+/* Navigation - styling and customization */
+/*----------------------------------------*/
+
+/* Base file customization */
+
+.nav-file-title {
+    color: #aabbcc;
+    --nav-item-color-hover: #ffffff;
+}
+
+.nav-file-title::before {
+    content: "\26ac";
+	padding-right: 5px;
+}
+
+.nav-file-tag {
+    color: white;
+}
+
+/* Bookmark specific in addition yo the styling from nav title */
+
+.bookmark {
+	font-weight: bold !important;
+    color: #aabbcc;
+}
+
+.bookmark:hover {
+	color: white;
+}
+
+.bookmark.mod-collapsible {
+	font-weight: bold !important;
+    color: #ccaabb;
+	border-bottom: solid 1px #ccaabb;
+}
+
+.bookmark.mod-collapsible::before {
+	content: "\2192";
+	padding-right: 5px;
+}
+
+/* Base folder customization */
+
+.nav-folder-title {
+    color: #ccbbaa;
+	border-bottom: 1px solid #99887780;
+    --nav-item-color-hover: #ffffff;
+}
+
+.nav-folder-title::before {
+	content: "\21ac";
+	padding-right: 5px;
+}

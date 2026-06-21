@@ -1,0 +1,24 @@
+/*----------------------*/
+/* Ribbons and Toolbars */
+/*----------------------*/
+
+/* changes the background color of the ribbon */
+
+.side-dock-ribbon {
+    background-color: #22222280;
+	--ribbon-width: 48px;
+}
+
+/* changes the ribbon, icon sizes and spacing */
+.side-dock-ribbon svg {
+  height: 20px;
+  width: 20px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+/* changes the color of the mobile tool bar. Andy to add here if you want to use the same config file for both desktop mobile. */
+
+.mobile-toolbar {
+    background-color: #22222280;
+}

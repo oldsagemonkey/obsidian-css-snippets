@@ -1,0 +1,11 @@
+/*----------------------------------------------------------------------------------*/
+/* Source View - remove any visual formatting and set font to single size monospace */
+/*----------------------------------------------------------------------------------*/
+
+.markdown-source-view:not(.is-live-preview) * {
+	color: unset !important;
+	font-size: 1em !important;
+	font-weight: unset !important;
+	font-family: monospace !important;
+	border-bottom: unset !important;
+	}

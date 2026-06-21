@@ -1,0 +1,9 @@
+/*--------------------------------------*/
+/* Mermaid - styling and customizations */
+/*--------------------------------------*/
+
+.mermaid, .mermaid svg { 
+  max-width: 100%;
+  text-align: center;
+  height: auto;
+}
