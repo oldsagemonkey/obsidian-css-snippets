@@ -1,0 +1,252 @@
+/*
+  Obsidian graph view styling hooks.
+  These selectors cover the graph canvas colors, graph controls, color groups,
+  graph view wrappers, and graph settings classes exposed by Obsidian.
+*/
+
+/* Graph view wrappers */
+.workspace-leaf-content[data-type="graph"] .view-content,
+.workspace-leaf-content[data-type="localgraph"] .view-content {
+}
+
+.graph-view-outer {
+}
+
+.graph-view-container {
+}
+
+.graph-view {
+}
+
+.graph-global {
+}
+
+/* Graph canvas colors */
+.graph-view.color-fill {
+}
+
+.graph-view.color-fill-focused {
+}
+
+.graph-view.color-fill-tag {
+}
+
+.graph-view.color-fill-attachment {
+}
+
+.graph-view.color-fill-unresolved {
+}
+
+.graph-view.color-fill-1 {
+}
+
+.graph-view.color-fill-2 {
+}
+
+.graph-view.color-fill-3 {
+}
+
+.graph-view.color-fill-4 {
+}
+
+.graph-view.color-fill-5 {
+}
+
+.graph-view.color-fill-6 {
+}
+
+.graph-view.color-arrow {
+}
+
+.graph-view.color-circle {
+}
+
+.graph-view.color-line {
+	color: #ffffff;
+}
+
+.graph-view.color-text {
+}
+
+.graph-view.color-fill-highlight {
+}
+
+.graph-view.color-line-highlight {
+}
+
+/* Graph controls panel */
+.graph-controls {
+}
+
+.graph-controls:not(.is-close) {
+}
+
+.graph-controls.is-close {
+}
+
+.graph-controls.is-close > .graph-control-section {
+}
+
+.workspace-split:not(.mod-root) .graph-controls.is-close {
+}
+
+.graph-controls input[type="text"],
+.graph-controls input[type="range"] {
+}
+
+.graph-controls .mod-cta {
+}
+
+.graph-controls .setting-item {
+}
+
+.graph-controls .setting-item .setting-item-info {
+}
+
+.graph-controls .setting-item:first-of-type {
+}
+
+.graph-controls .setting-item.mod-slider {
+}
+
+.graph-controls .setting-item.mod-slider > * {
+}
+
+.graph-controls .setting-item.mod-slider .setting-item-info {
+}
+
+.graph-controls .setting-item.mod-slider .setting-item-control {
+}
+
+.graph-controls .setting-item.mod-toggle .setting-item-control {
+}
+
+.graph-controls .setting-item.mod-search-setting .setting-item-info {
+}
+
+.graph-controls .setting-item-name {
+}
+
+.graph-controls::-webkit-scrollbar,
+.graph-controls::-webkit-scrollbar-thumb {
+}
+
+/* Graph controls buttons */
+.graph-controls-button {
+}
+
+.graph-controls-button.mod-close,
+.graph-controls-button.mod-reset {
+}
+
+.graph-controls:not(.is-close) .graph-controls-button.mod-close,
+.graph-controls:not(.is-close) .graph-controls-button.mod-reset {
+}
+
+.graph-controls-button.mod-reset {
+}
+
+.graph-controls.is-close .graph-controls-button.mod-open {
+}
+
+.graph-controls-button.mod-animate {
+}
+
+.graph-controls.is-close .graph-controls-button.mod-animate {
+}
+
+/* Graph controls sections */
+.graph-control-section-header {
+}
+
+.graph-control-section {
+}
+
+.graph-control-section:last-child {
+}
+
+.graph-control-section:last-child .tree-item-children {
+}
+
+.graph-control-section > .tree-item-self {
+}
+
+.graph-control-section .tree-item-children {
+}
+
+.graph-control-section.mod-filter {
+}
+
+.graph-control-section.mod-color-groups {
+}
+
+.graph-control-section.mod-display {
+}
+
+.graph-control-section.mod-forces {
+}
+
+.graph-control-section.mod-display .setting-item:not(.mod-slider):last-child .setting-item-info {
+}
+
+/* Graph color groups */
+.graph-color-groups-container {
+}
+
+.graph-color-group {
+}
+
+.graph-color-group input[type="color"] {
+}
+
+.graph-color-group .clickable-icon {
+}
+
+.graph-color-button-container {
+
+}
+
+.graph-color-button-container button {
+
+}
+
+.graph-color-group.drag-ghost {
+}
+
+.graph-color-group.drag-ghost input[type="text"] {
+}
+
+.graph-color-group.drag-ghost input[type="color"] {
+}
+
+.graph-control-section.mod-color-groups .tree-item-children.is-grabbing .graph-color-groups-container {
+}
+
+/* Search setting used by graph controls */
+.graph-controls .setting-item.mod-search-setting .setting-item-info {
+}
+
+.graph-controls .setting-item.mod-search-setting .setting-item-control .search-input-container {
+}
+
+.graph-controls .setting-item.mod-search-setting.is-loading .setting-item-control::before {
+}
+
+/* Graph settings and metadata hooks */
+.graph-settings {
+}
+
+.graph-description {
+}
+
+.graph-name {
+}
+
+.graph-icon {
+}
+
+.graph-glyph {
+}
+
+.graph-expand {
+}
