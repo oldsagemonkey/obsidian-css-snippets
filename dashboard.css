@@ -74,3 +74,10 @@
       grid-template-columns: 1fr;
     }
   }
+ 
+/* Reduce the size of bases tables on the dashboard */
+
+.dash .bases-table,
+  .dash .bases-table * {
+    font-size: 12px;
+  }

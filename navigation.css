@@ -15,24 +15,22 @@
 }
 
 .nav-file-tag {
-    color: white;
+    color: #aabbcc;
 }
 
 /* Bookmark specific in addition yo the styling from nav title */
 
 .bookmark {
-	font-weight: bold !important;
     color: #aabbcc;
 }
 
 .bookmark:hover {
-	color: white;
+	color: #ffffff;
 }
 
 .bookmark.mod-collapsible {
-	font-weight: bold !important;
-    color: #ccaabb;
-	border-bottom: solid 1px #ccaabb;
+    color: #ccbbaa;
+	border-bottom: solid 1px #ccbbaa;
 }
 
 .bookmark.mod-collapsible::before {
@@ -52,3 +50,23 @@
 	content: "\21ac";
 	padding-right: 5px;
 }
+
+.nav-folder-title[data-path$="00 Inbox"] {
+	background-color: #2f2222;
+}
+
+.nav-folder-title[data-path$="60 Projects"] {
+	background-color: #222f22;
+}
+
+.nav-folder-title[data-path$="30 Obsidian"] {
+	background-color: #22222f;
+}
+
+/* Subdue Publish folder and publish.css so they do not visually interfere with my JDS file structure */
+
+.nav-folder-title[data-path$="publish"], .nav-file-title[data-path$="publish.css"] {
+    color: #556677 !important;
+    --nav-item-color-hover: #ffffff;
+}
+
