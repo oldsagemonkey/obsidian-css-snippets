@@ -32,12 +32,12 @@
 	font-size: 1.1em;
 	font-variant: small-caps;
 	letter-spacing: 1.3px;
-	background-color: #304050d0;
+	background-color: #aabbcc20;
 }
 
 .bases-tbody {
 	font-size: 1.2em;
-	background-color: #33445540;
+	background-color: #aabbcc10;
 }
 
 .bases-tr {
@@ -53,7 +53,7 @@
 }
 
 body {
---bases-table-header-color: white;
+--bases-table-header-color: #aabbcc;
 --bases-table-header-weight: 600;
 --bases-table-header-icon-display: none;
 }

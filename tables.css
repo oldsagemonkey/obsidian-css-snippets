@@ -14,7 +14,7 @@ table {
 	min-width: 100% !important;
 }
 thead {
-	background-color: #44556650 !important;
+	background-color: #aabbcc30 !important;
 	font-variant: small-caps !important;
 }
 th {
@@ -22,10 +22,10 @@ th {
 }
 
 td {
-	background-color: #44556630 !important;
+	background-color: #aabbcc10 !important;
 }
 
 td, th {
-	border: 1px solid #556677 !important;
+	border: 1px solid #aabbcc80 !important;
 	padding: 5px !important;
 }

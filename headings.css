@@ -5,10 +5,10 @@
 body {
   --h1-color: #ccbbaa;
   --h2-color: #aabbcc;
-  --h3-color: #ccaabb;
-  --h4-color: #aaccbb;
+  --h3-color: #aaccbb;
+  --h4-color: #ccaabb;
   --h5-color: #ccbbaa;
-  --h6-color: #ccaabb;
+  --h6-color: #bbaacc;
   --h1-size: 1.50rem;
   --h2-size: 1.30rem;
   --h3-size: 1.20rem;

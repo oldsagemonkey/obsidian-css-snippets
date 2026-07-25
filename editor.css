@@ -8,6 +8,11 @@
 	background: #222222;
 }
 
+.cm-highlight, .markdown-preview-view mark {
+	background-color: #ccbbaa !important;
+	color: black !important;
+}
+
  /* Styling for spelling errors */
 ::spelling-error {
 	text-decoration: underline double #ffaabb;

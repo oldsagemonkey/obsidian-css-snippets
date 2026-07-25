@@ -4,25 +4,25 @@
 
 /* Recursive font colors for headers in the outline pane list */
 .workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-self {
-    color: #ccbbaa; /* Level 1 color */
+    color: var(--h1-color); /* Level 1 color */
   }
   
 .workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-children > .tree-item > .tree-item-self {
-    color: #aabbcc; /* Level 2 color */
+    color: var(--h2-color); /* Level 2 color */
   }
 
 .workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-children > .tree-item > .tree-item-children  > .tree-item > .tree-item-self {
-    color: #bbaacc; /* Level 3 color */
+    color: var(--h3-color); /* Level 3 color */
   }
   
 .workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-children > .tree-item > .tree-item-children  > .tree-item  > .tree-item-children  > .tree-item > .tree-item-self {
-    color: #ccaabb; /* Level 4 color */
+    color: var(--h4-color); /* Level 4 color */
   }
   
 .workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-children > .tree-item > .tree-item-children  > .tree-item  > .tree-item-children  > .tree-item > .tree-item-children  > .tree-item >  .tree-item-self {
-    color: #aaccbb; /* Level 5 color */
+    color: var(--h5-color); /* Level 5 color */
   }
   
 .workspace-leaf-content[data-type="outline"] .tree-item > .tree-item-children > .tree-item > .tree-item-children  > .tree-item  > .tree-item-children  > .tree-item > .tree-item-children  > .tree-item > .tree-item-children  > .tree-item >  .tree-item-self {
-    color: #ccaabb; /* Level 6 color */
+    color: var(--h6-color); /* Level 6 color */
   }

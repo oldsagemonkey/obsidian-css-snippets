@@ -22,7 +22,7 @@
 /* Proper asides */
 .callout[data-callout="aside"] {
 	--callout-color: 150, 200, 250;
-    float: right;
+	float: right;
 	margin-top: 0px;
 	margin-left: 20px;
 	margin-right: 20px;
