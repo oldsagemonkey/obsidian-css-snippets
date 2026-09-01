@@ -15,12 +15,22 @@
 	--callout-border-width: 2px !important;
 }
 
+.dash h1 {
+	font-variant: small-caps !important;
+	font-size: 2em !important;
+	letter-spacing: .6em;
+	text-align: center !important;
+	color: #ccbbaa !important;
+	border-bottom: 0.5px solid #f0a0a0 !important;
+	margin-bottom: 40px;
+}
+
 .dash h2 {
 	font-variant: small-caps !important;
 	font-size: 1.4em !important;
 	letter-spacing: .3em;
 	text-align: center !important;
-	color: #ccbbaa !important;
+	color: #aabbcc !important;
 	border-bottom: 0.5px solid #f0a0a0 !important;
 }
 

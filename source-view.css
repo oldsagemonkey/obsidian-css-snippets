@@ -9,3 +9,7 @@
 	font-family: monospace !important;
 	border-bottom: unset !important;
 	}
+
+	--titlebar::after {
+		content: "rlrlrlr";
+	}

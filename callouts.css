@@ -21,14 +21,16 @@
 
 /* Proper asides */
 .callout[data-callout="aside"] {
-	--callout-color: 150, 200, 250;
+	--callout-color: #8899aa;
 	float: right;
-	margin-top: 0px;
-	margin-left: 20px;
-	margin-right: 20px;
-	padding: 10px;
-	border: 1px solid #667788;
-	width: 30%;
+	margin: 0px 20px 0px 20px;
+	padding: 0px 20px 0px 20px;
+	border: 1px solid #99aabb;
+	width: 40%;
+}
+
+.callout[data-callout="aside"] .callout-title {
+  display: none;
 }
 
 /* Custom Callouts - Sanskrit */

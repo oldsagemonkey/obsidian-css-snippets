@@ -15,5 +15,6 @@
 
  /* Styling for spelling errors */
 ::spelling-error {
-	text-decoration: underline double #ffaabb;
+	color: #ffbbaa;
+	text-decoration: overline;
 }

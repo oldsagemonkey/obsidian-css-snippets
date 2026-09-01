@@ -65,7 +65,7 @@
 
 /* Subdue Publish folder and publish.css so they do not visually interfere with my JDS file structure */
 
-.nav-folder-title[data-path$="publish"], .nav-file-title[data-path$="publish.css"] {
+.nav-folder-title[data-path$="site"], .nav-file-title[data-path$="publish.css"] {
     color: #556677 !important;
     --nav-item-color-hover: #ffffff;
 }
