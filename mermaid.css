@@ -7,3 +7,22 @@
   text-align: center;
   height: auto;
 }
+
+.pele {
+	--pele-border: #778899;
+	--pele-line: #778899;
+	--pele-series-1: #77889930;
+	--pele-series-2: #99778830;
+	--pele-series-3: #88997730;
+	--pele-series-4: #99887730;
+	--pele-series-5: #88779930;
+	--pele-series-6: #77998830;
+	--pele-series-7: #77998830;
+	--pele-series-8: #88997730;
+}
+
+/* Special for charts that flip bg & fg */
+.pele-pie {
+	--pele-bg: #cecdc380;
+}
+
